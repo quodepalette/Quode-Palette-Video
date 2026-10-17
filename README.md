@@ -7,11 +7,11 @@ A fast, simple video and audio player for Windows. No clutter, no accounts, no a
 </p>
 
 <p align="center">
-  <img src="docs/Screenshot" alt="Quode Palette Screenshot" width="100%">
+  <img src="docs/Screenshot1" alt="Quode Palette Screenshot" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/Screenshot" alt="Quode Palette Screenshot" width="100%">
+  <img src="docs/Screenshot2" alt="Quode Palette Screenshot" width="100%">
 </p>
 
 ## Why you might like it
