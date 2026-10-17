@@ -3,7 +3,7 @@
 A fast, simple video and audio player for Windows. No clutter, no accounts, no ads. You open a file and it plays.
 
 <p align="center">
-  <img src="video.gif" alt="Quode Palette Video screenshot" width="100%">
+  <img src="docs/video.gif" alt="Quode Palette Video screenshot" width="100%">
 </p>
 
 ## Why you might like it
