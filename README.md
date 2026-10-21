@@ -6,13 +6,56 @@ A fast, simple video and audio player for Windows. No clutter, no accounts, no a
   <img src="docs/video.gif" alt="Quode Palette Screenshot" width="100%">
 </p>
 
-<p align="center">
-  <img src="docs/Screenshot1.png" alt="Quode Palette Screenshot" width="100%">
-</p>
-
-<p align="center">
-  <img src="docs/Screenshot2.png" alt="Quode Palette Screenshot" width="100%">
-</p>
+<table>
+    <td width="50%" align="center">
+      <a href="docs/audio.png"><img src="docs/Screenshot1.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Audio Converter</b>
+      <br>
+      <sub>Convert common audio formats with FFmpeg</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="docs/video.png"><img src="docs/Screenshot2.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Video Converter</b>
+      <br>
+      <sub>Convert common video formats with FFmpeg</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="docs/image.png"><img src="docs/Screenshot3.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Image Converter</b>
+      <br>
+      <sub>Convert common image formats with Pillow</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="docs/video-mp3.png"><img src="docs/Screenshot4.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Video to MP3 Converter</b>
+      <br>
+      <sub>Extract MP3 audio from video files with FFmpeg</sub>
+    </td>
+  </tr>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="docs/image.png"><img src="docs/Screenshot5.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Image Converter</b>
+      <br>
+      <sub>Convert common image formats with Pillow</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="docs/video-mp3.png"><img src="docs/Screenshot6.png" alt="Screenshot" width="100%"></a>
+      <br>
+      <b>Video to MP3 Converter</b>
+      <br>
+      <sub>Extract MP3 audio from video files with FFmpeg</sub>
+    </td>
+  </tr>
+</table>
 
 ## Why you might like it
 
@@ -21,20 +64,24 @@ Most players either feel heavy or look like they were designed twenty years ago.
 ## Features
 
 **Plays what you throw at it**
+
 - Common video and audio formats, including MP4, MKV, MOV, AVI, WebM, MP3, FLAC and more
-- Album art shows up when you play music, and if a track has no cover you see the app logo instead of a black screen
+- Album art shows up when you play music, and if a track has no cover you see the app logo.
 
 **A queue that behaves**
+
 - Drag files onto the window to add them
 - Reorder the queue by dragging
 - Previous, next, repeat (off, all or one) and shuffle
 - Open a file while the player is already running and it joins the same window
 
 **It remembers things for you**
+
 - Your queue, volume, speed and window size
 - Where you stopped in each file, with an offer to resume next time
 
 **Watch your way**
+
 - Fullscreen with controls that appear when you move the mouse and hide when you stop
 - A small always-on-top mini player you can drag, resize and bring back with a double-click
 - Hold the left mouse button on the video to play at 2x speed, let go to return to normal
@@ -43,6 +90,7 @@ Most players either feel heavy or look like they were designed twenty years ago.
 - Your screen stays awake only while something is playing
 
 **Looks sharp**
+
 - Clean dark theme with a cyan and violet accent
 - Icons are drawn in code, so they stay crisp on any display scale
 
@@ -50,11 +98,11 @@ Most players either feel heavy or look like they were designed twenty years ago.
 
 Grab the latest version from the [Releases](../../releases) page. There are three options:
 
-| File | Best for |
-| --- | --- |
-| `QuodePaletteVideo-Setup-1.0.0.0.exe` | Normal installation with a Start menu entry and an uninstaller |
-| `QuodePaletteVideo-1.0.0.0-portable.exe` | One file you can run from anywhere, no install |
-| `QuodePaletteVideo-1.0.0.0-win64-portable.zip` | Portable, unpacked into a folder you choose |
+| File                                           | Best for                                                       |
+| ---------------------------------------------- | -------------------------------------------------------------- |
+| `QuodePaletteVideo-Setup-1.0.0.0.exe`          | Normal installation with a Start menu entry and an uninstaller |
+| `QuodePaletteVideo-1.0.0.0-portable.exe`       | One file you can run from anywhere, no install                 |
+| `QuodePaletteVideo-1.0.0.0-win64-portable.zip` | Portable, unpacked into a folder you choose                    |
 
 The portable exe unpacks itself the first time you run it, which takes a few seconds. After that it starts right away. Portable versions keep their settings in a `data` folder next to the app instead of the registry, so you can carry them on a USB stick.
 
@@ -65,27 +113,23 @@ The portable exe unpacks itself the first time you run it, which takes a few sec
 
 ## Keyboard shortcuts
 
-| Key | Action |
-| --- | --- |
-| `Space` | Play or pause |
-| `Left` / `Right` | Seek 5 seconds back or forward |
-| `Ctrl` + `Left` / `Right` | Seek 60 seconds back or forward |
-| `J` / `L` | Seek 10 seconds back or forward |
-| `0` to `9` | Jump to 0% to 90% of the file |
-| `Up` / `Down` | Volume up or down |
-| `M` | Mute |
-| `+` / `-` | Change playback speed |
-| `N` / `P` | Next or previous item |
-| `F` | Fullscreen |
-| `Ctrl` + `M` | Mini player |
-| `Esc` | Leave fullscreen or the mini player |
-| `O` | Open files |
+| Key                       | Action                              |
+| ------------------------- | ----------------------------------- |
+| `Space`                   | Play or pause                       |
+| `Left` / `Right`          | Seek 5 seconds back or forward      |
+| `Ctrl` + `Left` / `Right` | Seek 60 seconds back or forward     |
+| `J` / `L`                 | Seek 10 seconds back or forward     |
+| `0` to `9`                | Jump to 0% to 90% of the file       |
+| `Up` / `Down`             | Volume up or down                   |
+| `M`                       | Mute                                |
+| `+` / `-`                 | Change playback speed               |
+| `N` / `P`                 | Next or previous item               |
+| `F`                       | Fullscreen                          |
+| `Ctrl` + `M`              | Mini player                         |
+| `Esc`                     | Leave fullscreen or the mini player |
+| `O`                       | Open files                          |
 
 With the mouse, scroll over the video to change the volume, double-click it for fullscreen and right-click for the menu.
-
-## Good to know
-
-Playback uses Qt Multimedia with its FFmpeg backend, so format support and hardware decoding depend on your system and drivers. Subtitles work with tracks embedded in the file. External subtitle files are not supported yet.
 
 ## Feedback
 
@@ -93,4 +137,5 @@ Found a bug or have an idea? Open an issue on this repo, or reach us at [hello@q
 
 ## License
 
-The app is free for personal, educational and other noncommercial use under the PolyForm Noncommercial License 1.0.0. For commercial use, please get in touch at [hello@quodepalette.com](mailto:hello@quodepalette.com).
+Released under the [PolyForm Noncommercial License 1.0.0](LICENSE). You are free to use, modify and share it for personal, educational and other noncommercial purposes. For commercial use, please get in touch.
+[Email Us](mailto:hello@quodepalette.com)
