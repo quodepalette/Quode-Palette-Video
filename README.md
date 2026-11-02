@@ -3,58 +3,25 @@
 A fast, simple video and audio player for Windows. No clutter, no accounts, no ads. You open a file and it plays.
 
 <p align="center">
-  <img src="docs/video.gif" alt="Quode Palette Screenshot" width="100%">
+  <img src="docs/Screenshot1.png" alt="Quode Palette Screenshot" width="100%">
+  <b>Screenshot I</b>
 </p>
 
 <table>
     <td width="50%" align="center">
-      <a href="docs/audio.png"><img src="docs/Screenshot1.png" alt="Screenshot" width="100%"></a>
+      <a href="docs/Screenshot2.png"><img src="docs/Screenshot2.png" alt="Screenshot" width="100%"></a>
       <br>
-      <b>Audio Converter</b>
+      <b>Screenshot II</b>
       <br>
-      <sub>Convert common audio formats with FFmpeg</sub>
+      <!-- <sub>Convert common audio formats with FFmpeg</sub> -->
     </td>
     <td width="50%" align="center">
-      <a href="docs/video.png"><img src="docs/Screenshot2.png" alt="Screenshot" width="100%"></a>
+      <a href=docs/Screenshot3.png"><img src="docs/Screenshot3.png" alt="Screenshot" width="100%"></a>
       <br>
-      <b>Video Converter</b>
+      <b>Screenshot III</b>
       <br>
-      <sub>Convert common video formats with FFmpeg</sub>
+      <!-- <sub>Convert common video formats with FFmpeg</sub> -->
     </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="docs/image.png"><img src="docs/Screenshot3.png" alt="Screenshot" width="100%"></a>
-      <br>
-      <b>Image Converter</b>
-      <br>
-      <sub>Convert common image formats with Pillow</sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="docs/video-mp3.png"><img src="docs/Screenshot4.png" alt="Screenshot" width="100%"></a>
-      <br>
-      <b>Video to MP3 Converter</b>
-      <br>
-      <sub>Extract MP3 audio from video files with FFmpeg</sub>
-    </td>
-  </tr>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="docs/image.png"><img src="docs/Screenshot5.png" alt="Screenshot" width="100%"></a>
-      <br>
-      <b>Image Converter</b>
-      <br>
-      <sub>Convert common image formats with Pillow</sub>
-    </td>
-    <td width="50%" align="center">
-      <a href="docs/video-mp3.png"><img src="docs/Screenshot6.png" alt="Screenshot" width="100%"></a>
-      <br>
-      <b>Video to MP3 Converter</b>
-      <br>
-      <sub>Extract MP3 audio from video files with FFmpeg</sub>
-    </td>
-  </tr>
 </table>
 
 ## Why you might like it
@@ -131,9 +98,9 @@ The portable exe unpacks itself the first time you run it, which takes a few sec
 
 With the mouse, scroll over the video to change the volume, double-click it for fullscreen and right-click for the menu.
 
-## Feedback
+## Fonts
 
-Found a bug or have an idea? Open an issue on this repo, or reach us at [hello@quodepalette.com](mailto:hello@quodepalette.com).
+The font is under the SIL Open Font License.
 
 ## License
 
